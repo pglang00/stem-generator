@@ -36,7 +36,7 @@ class StemGen {
             if (error) {
                 let err = 'Error:' + error.toString()
                 this.log(err, "red"); // Print the error if one occurred
-                return;
+                this.kill();
             } else {
                 let stems = JSON.parse(body);
                 
