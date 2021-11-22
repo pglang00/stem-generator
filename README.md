@@ -1,4 +1,4 @@
-# stem-generator
+# Stem Generator
  
 - Uses the AI from stemplayer.com to split mp3 files into stem files
 - Run with NodeJS
